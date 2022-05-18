@@ -36,7 +36,7 @@ ARG STEAM_DEFAULT_PATH=/home/steam/steamcmd.sh
 ENV STEAM_PATH=${STEAM_DEFAULT_PATH}
 
 # Add label metadata
-LABEL com.renegademaster.steamcmd-minimal.authors="Renegade-Master" \
+LABEL com.renegademaster.steamcmd-minimal.authors="Hypertoken-Master" \
     com.renegademaster.steamcmd-minimal.source-repository="https://github.com/Renegade-Master/steamcmd-minimal" \
     com.renegademaster.steamcmd-minimal.image-repository="https://hub.docker.com/repository/docker/renegademaster/steamcmd-minimal"
 
