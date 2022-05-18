@@ -1,9 +1,3 @@
-#######################################################################
-#   Author: Renegade-Master
-#   Description: Base image for a Steam CMD minimal install.
-#   License: GNU General Public License v3.0 (see LICENSE)
-#######################################################################
-
 # Set the User and Group IDs
 ARG USER_ID=1000
 ARG GROUP_ID=1000
@@ -36,9 +30,9 @@ ARG STEAM_DEFAULT_PATH=/home/steam/steamcmd.sh
 ENV STEAM_PATH=${STEAM_DEFAULT_PATH}
 
 # Add label metadata
-LABEL com.renegademaster.steamcmd-minimal.authors="Hypertoken-Master" \
-    com.renegademaster.steamcmd-minimal.source-repository="https://github.com/Renegade-Master/steamcmd-minimal" \
-    com.renegademaster.steamcmd-minimal.image-repository="https://hub.docker.com/repository/docker/renegademaster/steamcmd-minimal"
+LABEL com.renegademaster.steamcmd-minimal.authors="Hypertoken" \
+    com.renegademaster.steamcmd-minimal.source-repository="https://github.com/Hypertoken/steamcmd-minimal" \
+    com.renegademaster.steamcmd-minimal.image-repository="https://hub.docker.com/repository/docker/hypertoken77/steamcmd-minimal"
 
 # Set local working directory
 WORKDIR /home/steam
